@@ -80,6 +80,9 @@ body {
 }
 
 .description-project-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
   color: var(--primary-color);
 }
 
@@ -355,6 +358,7 @@ body {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-address {
@@ -363,6 +367,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-address-footer {
@@ -392,7 +397,6 @@ body {
 .link-address:hover,
 .link-address:focus {
   color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -531,6 +535,7 @@ p {
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--accent-color);
+  outline: none;
 }
 .social-svg {
   fill: var(--svg-color);
@@ -585,6 +590,7 @@ p {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--accent-color);
+  outline: none;
 }
 
 .footer-bold {
@@ -637,6 +643,7 @@ p {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
